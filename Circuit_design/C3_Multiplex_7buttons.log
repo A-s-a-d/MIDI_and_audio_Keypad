@@ -1,0 +1,12 @@
+# Writing all output to: C:\Users\asad1\OneDrive\Documents\APPs_DATA\GitHub\ESP32_C3\MIDI_and_audio_Keypad\Circuit_design\C3_Multiplex_7buttons.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 50
+clean 2
+route 50 16
+clean 2
+filter 5
+recorner diagonal
+status_file
+
