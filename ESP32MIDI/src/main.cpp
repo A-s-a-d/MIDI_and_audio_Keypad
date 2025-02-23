@@ -1,4 +1,6 @@
 #include <Arduino.h>
+#include "lib/PINOUT.h"
+
 
 void setup() {
   Serial.begin(115200); 
